@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WM/List of Meetings</title>
+    <link rel="stylesheet" href="listofmeeting.css">
+  </head>
+  <body>
+    <h2>List Of Meetings</h2>
+    <hr>
+    <div class="main-container">
+
+
+    <table>
+      <tr>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>HNI details</th>
+        <th>Accept</th>
+        <th>reject</th>
+      </tr>
+      <tr>
+        <td>.........</td>
+        <td>........</td>
+        <td>..........</td>
+        <td><input type="button" name="" value="Accept" ></td>
+        <td><input type="button" name="" value="Reschedule" id="reschedule"></td>
+      </tr>
+      <tr>
+        <td>.........</td>
+        <td>........</td>
+        <td>..........</td>
+        <td><input type="button" name="" value="Accept"></td>
+        <td><input type="button" name="" value="Reschedule" id="reschedule"></td>
+      </tr>
+      <tr>
+        <td>.........</td>
+        <td>........</td>
+        <td>..........</td>
+        <td><input type="button" name="" value="Accept"></td>
+        <td><input type="button" name="" value="Reschedule" id="reschedule"></td>
+      </tr>
+    </table>
+        </div>
+
+  </body>
+  <script type="text/javascript">
+    document.getElementById("reschedule").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+</html>

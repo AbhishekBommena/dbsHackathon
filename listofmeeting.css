@@ -1,0 +1,20 @@
+body{
+  background-color: #EFFFFD;
+
+}
+.main-container{
+  background-color: lightgrey;
+  margin: 5% 20%;
+  width: 60%;
+}
+table{
+  width: 100%;
+}
+td,th{
+  padding:30px;
+}
+table,td,th{
+
+  border-collapse: collapse;
+  border: 1px solid black;
+}
