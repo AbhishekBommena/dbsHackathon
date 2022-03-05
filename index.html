@@ -8,7 +8,28 @@
   <body>
     <h2>Schedule Meeting</h2>
     <hr>
+
+    <div class="left-nav">
+      <input type="button" name="" value="List Of Meetings" id="listofmeetings" onclick="">
+      <h3>List Of HNI'S</h3>
+      <ol>
+          <li>
+              M.Bharath Kumar
+          </li>
+          <li>
+              R.v.r.Avinash
+          </li>
+          <li>
+              G.Premkrishna
+          </li>
+          <li>
+              D.Chandrasekhar
+          </li>
+      </ol>
+    </div>
+    <div class="vl"></div>
     <div class="main-container">
+
       <form class="form-content" action="#" method="post">
         <label>To</label>
         <input type="text" name="nameofHNI" value="">
@@ -25,8 +46,21 @@
         <label>Message</label>
         <textarea name="name" rows="8" cols="20"></textarea>
         <br>
-        <input type="button" name="" value="submit">
+        <input type="button" name="" value="Submit" class="btn">
       </form>
     </div>
+    <footer>
+
+    </footer>
   </body>
+  <script type="text/javascript">
+    document.getElementById("nextBtn").onclick = function () {
+        location.href = "Hni.html";
+    };
+  </script>
+  <script type="text/javascript">
+    document.getElementById("listofmeetings").onclick = function () {
+        location.href = "listofmeeting.html";
+    };
+</script>
 </html>

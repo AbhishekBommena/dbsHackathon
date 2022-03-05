@@ -1,17 +1,59 @@
 body{
   font-family: sans-serif;
-  background-color: #EFFFFD;
+  background-color: #EFFFFD;/*   #B33030*/
   text-align: center;
+
+}
+/*h2,h3,label,li{
+  color: white;
+}*/
+.vl {
+  border-left: 2px solid black;
+  opacity: 0.5;
+  height: 500px;
+  position: absolute;
+  left: 300px;
+}
+.hnibtn{
+  float: right;
+  margin-right: 40px;
+}
+.left-nav{
+  display: inline;
+  float: left;
+
+}
+.listofmeetings {
+
+}
+li{
+  margin-top: 20px;
+  text-align: left;
 }
 .main-container{
-  margin: auto 25% ;
+  position: absolute;
+  left: 25%;
   width: 50%;
+  display: inline;
 
 }
+footer{
 
+}
 label,input{
   margin-top: 50px;
 }
 textarea{
   margin-top: 50px;
+}
+input[type="button"]{
+  border-radius:5px;
+  border: none;
+  padding: 10px 40px;
+  background-color: #42C2FF;
+  color: white;
+  cursor: pointer;
+}
+input[type="button"]:hover{
+  opacity: 0.8;
 }
