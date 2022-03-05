@@ -1,0 +1,17 @@
+body{
+  font-family: sans-serif;
+  background-color: #EFFFFD;
+  text-align: center;
+}
+.main-container{
+  margin: auto 25% ;
+  width: 50%;
+
+}
+
+label,input{
+  margin-top: 50px;
+}
+textarea{
+  margin-top: 50px;
+}
